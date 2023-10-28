@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<nav>
+			<div class="inner">
+				<a href="" class="nav__logo"><img src="img/icons/icon_1.svg" alt=""></a>
+				<ul class="nav__menu">
+				<li class="nav__link">
+					<a href="">Главная</a>
+				</li>
+				<li class="nav__link">
+					<a href="">Курсы</a>
+				</li>
+				<li class="nav__link">
+					<a href="">Расписание</a>
+				</li>
+				<li class="nav__link">
+					<a href="">Преподаватели</a>
+				</li>
+				<li class="nav__link">
+					<a href="">Рассылка</a>
+				</li>
+				<li class="nav__link">
+					<a href="">Контакты</a>
+				</li>
+				</ul>
+				<button class="nav__login">
+					<span>Зайти в кабинет</span>
+				</button>
+			</div>
+			<div class="mobile__bar">
+					<a href="" class="mobile__logo"><img src="/img/icons/icon_1.svg" alt=""></a>
+					<button class="nav__toggler" onclick="navToggle()">
+						<span></span>
+					</button>
+			</div>
+		</nav>
+		<header class="header">
+			<div class="overlay">
+				<div class="container">
+					<div class="header__content">
+						<div class="header__content_title">Первый курс по компьютерной сборке</div>
+						<div class="header__content_time time">
+							<div class="time__scale"><div class="time__value days">18</div><div class="time__length">дней</div></div>
+							<div class="time__scale time__scale_2"><div class="time__value hours">18</div><div class="time__length">часов</div></div>
+							<div class="time__scale"><div class="time__value minutes">18</div><div class="time__length">минут</div></div>
+							<div class="time__scale time__scale_4"><div class="time__value seconds">18</div><div class="time__length">секунд</div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="budget">
+			<div class="container container__content">
+				<div class="budget__book">
+					<button class="budget__book_title"><span>Заказать курс</span></button>
+				</div>
+				<div class="budget__student">
+					<div class="student__stats">
+						<div class="students__stats_new new">
+							<p class="new__title">Учеников всего:</p>
+							<span class="new__value">200</span>
+						</div>
+						<div class="students__stats_old old">
+							<p class="old__title">Успешно закончили курс:</p>
+							<span class="old__value">190</span>
+						</div>
+					</div>
+				</div>
+				<div class="budget__money">
+					<div class="budget__money_stats stats">
+						<div class="stats__title">Заработано учениками:</div>
+						<div class="stats__value">400 000₽</div>
+					</div>
+					<div class="progress">
+						<div class="progress-line"></div>
+					</div>
+					<div class="money__proress_interval">
+						<div class="start">0</div>
+						<div class="finish">1 000 000₽</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="main">
+			<section class="service">
+				<div class="container">
+					<div class="service__content">
+						<img src="img/comp.png" alt="computer" class="service__content_img">
+						<div class="service__content_text text">
+							<div class="text__title">Чем мы занимаемся?</div>
+							<div class="text__value">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis. </div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="start">
+				<div class="container">
+					<div class="start__content">
+						<div class="start__title section__title">
+							<div class="start__title_icon"><svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M53.9901 24.0097C41.9254 11.945 22.3647 11.945 10.3 24.0097L0.217664 13.9273C17.8507 -3.70565 46.4394 -3.70564 64.0724 13.9273C81.7054 31.5603 81.7054 60.149 64.0724 77.782L53.9901 67.6997C66.0547 55.635 66.0547 36.0743 53.9901 24.0097Z" fill="url(#paint0_linear_10091_100)"/>
+								<defs>
+								<linearGradient id="paint0_linear_10091_100" x1="39.8907" y1="-10.2543" x2="86.1505" y2="54.5852" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#DF5950"/>
+								<stop offset="1" stop-color="#451046"/>
+								</linearGradient>
+								</defs>
+								</svg>
+							</div>
+							<div class="start__title_text">Быстрый старт</div>
+						</div>
+						<div class="start__text">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</div>
+						<div class="start__cards cards">
+							<div class="cards__content">
+								<div class="cards__content_value">100%</div>
+								<div class="cards__content_rectangle rectangle__1"></div>
+								<div class="cards__content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</div>
+							</div>
+							<div class="cards__content">
+								<div class="cards__content_value">75%</div>
+								<div class="cards__content_rectangle rectangle__2"></div>
+								<div class="cards__content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</div>
+							</div>
+							<div class="cards__content">
+								<div class="cards__content_value">50%</div>
+								<div class="cards__content_rectangle rectangle__3"></div>
+								<div class="cards__content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</div>
+							</div>
+							<div class="cards__content">
+								<div class="cards__content_value">Итог</div>
+								<div class="cards__content_rectangle rectangle__4"></div>
+								<div class="cards__content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="profession">
+				<div class="container">
+					<div class="profession__content">
+						<div class="profession__content_title">Получите профессию прямо сейчас</div>
+						<div class="profession__content_columns columns">
+							<div class="columns__body">
+								<div class="columns__body_icon"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M9.375 20.3125H6.25V12.5H14.0625V15.625H9.375V20.3125Z" fill="url(#paint0_linear_10112_2)"/>
+									<path d="M65.625 81.25H62.5V78.125H65.625V81.25ZM59.375 81.25H56.25V78.125H59.375V81.25ZM53.125 81.25H50V78.125H53.125V81.25ZM46.875 81.25H43.75V78.125H46.875V81.25ZM40.625 81.25H37.5V78.125H40.625V81.25ZM34.375 81.25H31.25V78.125H34.375V81.25ZM28.125 81.25H25V78.125H28.125V81.25ZM21.875 81.25H18.75V78.125H21.875V81.25ZM15.625 81.25H12.5V78.125H15.625V81.25ZM9.375 81.25H6.25V78.125H9.375V81.25Z" fill="url(#paint1_linear_10112_2)"/>
+									<path d="M65.625 87.5H62.5V84.375H65.625V87.5ZM59.375 87.5H56.25V84.375H59.375V87.5ZM53.125 87.5H50V84.375H53.125V87.5ZM46.875 87.5H43.75V84.375H46.875V87.5ZM40.625 87.5H37.5V84.375H40.625V87.5ZM34.375 87.5H31.25V84.375H34.375V87.5ZM28.125 87.5H25V84.375H28.125V87.5ZM21.875 87.5H18.75V84.375H21.875V87.5ZM15.625 87.5H12.5V84.375H15.625V87.5ZM9.375 87.5H6.25V84.375H9.375V87.5Z" fill="url(#paint2_linear_10112_2)"/>
+									<path d="M81.25 12.5H93.75V15.625H81.25V12.5Z" fill="url(#paint3_linear_10112_2)"/>
+									<path d="M81.25 18.75H93.75V21.875H81.25V18.75Z" fill="url(#paint4_linear_10112_2)"/>
+									<path d="M81.25 25H93.75V28.125H81.25V25Z" fill="url(#paint5_linear_10112_2)"/>
+									<path d="M65.625 34.375H57.8125V31.25H62.5V26.5625H65.625V34.375Z" fill="url(#paint6_linear_10112_2)"/>
+									<path d="M95.3125 6.25H79.6875C77.0988 6.25 75 8.34885 75 10.9375V65.625H100V10.9375C100 8.34885 97.9012 6.25 95.3125 6.25ZM96.875 62.5H78.125V10.9375C78.125 10.0746 78.8246 9.375 79.6875 9.375H95.3125C96.1754 9.375 96.875 10.0746 96.875 10.9375V62.5Z" fill="url(#paint7_linear_10112_2)"/>
+									<path d="M67.1875 71.875H4.6875C2.09885 71.875 0 73.9738 0 76.5625V89.0625C0 91.6512 2.09885 93.75 4.6875 93.75H67.1875C69.7762 93.75 71.875 91.6512 71.875 89.0625V76.5625C71.875 73.9738 69.7762 71.875 67.1875 71.875ZM68.75 89.0625C68.75 89.9254 68.0504 90.625 67.1875 90.625H4.6875C3.82462 90.625 3.125 89.9254 3.125 89.0625V76.5625C3.125 75.6996 3.82462 75 4.6875 75H67.1875C68.0504 75 68.75 75.6996 68.75 76.5625V89.0625Z" fill="url(#paint8_linear_10112_2)"/>
+									<path d="M85.9375 71.875C81.6246 71.8803 78.1303 75.3746 78.125 79.6875V85.9375C78.125 90.2519 81.6231 93.75 85.9375 93.75C90.2519 93.75 93.75 90.2519 93.75 85.9375V79.6875C93.7447 75.3746 90.2504 71.8803 85.9375 71.875ZM90.625 85.9375C90.625 88.5262 88.5262 90.625 85.9375 90.625C83.3488 90.625 81.25 88.5262 81.25 85.9375V79.6875C81.2584 77.7084 82.5089 75.9476 84.375 75.2876V81.25H87.5V75.2876C89.3661 75.9476 90.6166 77.7084 90.625 79.6875V85.9375Z" fill="url(#paint9_linear_10112_2)"/>
+									<path d="M67.1875 6.25H4.6875C2.09885 6.25 0 8.34885 0 10.9375V48.4375C0 51.0262 2.09885 53.125 4.6875 53.125H26.5625V59.6359C26.561 61.2167 25.2792 62.4985 23.6984 62.5H18.75V65.625H50V62.5H45.0516C43.4708 62.4985 42.189 61.2167 42.1875 59.6359V53.125H67.1875C69.7762 53.125 71.875 51.0262 71.875 48.4375V10.9375C71.875 8.34885 69.7762 6.25 67.1875 6.25ZM28.9566 62.5C29.4373 61.6219 29.689 60.6369 29.6875 59.6359V53.125H32.8125V59.7656H35.9375V53.125H39.0625V59.6359C39.061 60.6369 39.3127 61.6219 39.7934 62.5H28.9566ZM68.75 48.4375C68.75 49.3004 68.0504 50 67.1875 50H4.6875C3.82462 50 3.125 49.3004 3.125 48.4375V40.625H68.75V48.4375ZM68.75 37.5H3.125V10.9375C3.125 10.0746 3.82462 9.375 4.6875 9.375H67.1875C68.0504 9.375 68.75 10.0746 68.75 10.9375V37.5Z" fill="url(#paint10_linear_10112_2)"/>
+									<path d="M89.0622 47.097V43.75H85.9372V47.097C82.8901 47.8836 80.9026 50.8141 81.2993 53.936C81.6961 57.058 84.3526 59.3987 87.4997 59.3987C90.6469 59.3987 93.3034 57.058 93.7001 53.936C94.0969 50.8141 92.1094 47.8836 89.0622 47.097ZM87.4997 56.25C86.0875 56.2538 84.8493 55.307 84.4831 53.9429C84.1169 52.5787 84.7135 51.1391 85.9372 50.4341V53.125H89.0622V50.4341C90.286 51.1391 90.8826 52.5787 90.5164 53.9429C90.1502 55.307 88.9119 56.2538 87.4997 56.25Z" fill="url(#paint11_linear_10112_2)"/>
+									<path d="M32.8125 43.75H35.9375V46.875H32.8125V43.75Z" fill="url(#paint12_linear_10112_2)"/>
+									<defs>
+									<linearGradient id="paint0_linear_10112_2" x1="7.04852" y1="12.5" x2="13.7873" y2="13.0023" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint1_linear_10112_2" x1="12.3187" y1="78.125" x2="29.4528" y2="102.391" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint2_linear_10112_2" x1="12.3187" y1="84.375" x2="29.4528" y2="108.641" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint3_linear_10112_2" x1="82.5276" y1="12.5" x2="92.4845" y2="15.4686" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint4_linear_10112_2" x1="82.5276" y1="18.75" x2="92.4845" y2="21.7186" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint5_linear_10112_2" x1="82.5276" y1="25" x2="92.4845" y2="27.9686" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint6_linear_10112_2" x1="58.611" y1="26.5625" x2="65.3498" y2="27.0648" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint7_linear_10112_2" x1="77.5552" y1="6.24999" x2="99.2178" y2="6.92986" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint8_linear_10112_2" x1="7.34634" y1="71.875" x2="66.1598" y2="86.279" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint9_linear_10112_2" x1="79.722" y1="71.875" x2="93.2361" y2="72.5945" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint10_linear_10112_2" x1="7.34634" y1="6.24999" x2="69.1841" y2="11.8296" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint11_linear_10112_2" x1="82.5268" y1="43.75" x2="93.3316" y2="44.3934" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint12_linear_10112_2" x1="33.1319" y1="43.75" x2="35.8274" y2="43.9509" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									</defs>
+									</svg>
+								</div>
+								<div class="columns__body_title">Только практические навыки в работе</div>
+								<div class="columns__body_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</div>
+							</div>
+							<div class="columns__body">
+								<div class="columns__body_icon"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M43.75 6.25H46.875V18.75H43.75V6.25Z" fill="url(#paint0_linear_10112_16)"/>
+									<path d="M53.125 6.25H56.25V18.75H53.125V6.25Z" fill="url(#paint1_linear_10112_16)"/>
+									<path d="M65.625 21.875V0H34.375V21.875H28.125V100H71.875V21.875H65.625ZM37.5 3.125H62.5V21.875H37.5V3.125ZM68.75 96.875H31.25V25H68.75V96.875Z" fill="url(#paint2_linear_10112_16)"/>
+									<path d="M37.4998 62.2124V71.3425L48.4373 76.03V81.5376C46.2851 82.2983 44.9934 84.4994 45.3794 86.7493C45.7655 88.9999 47.7171 90.6441 49.9998 90.6441C52.2825 90.6441 54.2341 88.9999 54.6202 86.7493C55.0062 84.4994 53.7146 82.2983 51.5623 81.5376V70.2126L62.4998 60.0563V53.125H65.6248V43.75H56.2498V53.125H59.3748V58.6922L51.5623 65.9485V37.1094L54.6202 40.1672L56.8296 37.9578L49.9998 31.1279L43.17 37.9578L45.3794 40.1672L48.4373 37.1094V72.6311L40.6248 69.2825V62.2124C42.7771 61.4517 44.0687 59.2506 43.6827 57.0007C43.2966 54.7501 41.345 53.1059 39.0623 53.1059C36.7796 53.1059 34.828 54.7501 34.4419 57.0007C34.0559 59.2506 35.3476 61.4517 37.4998 62.2124ZM59.3748 46.875H62.4998V50H59.3748V46.875ZM49.9998 84.375C50.8627 84.375 51.5623 85.0746 51.5623 85.9375C51.5623 86.8004 50.8627 87.5 49.9998 87.5C49.1369 87.5 48.4373 86.8004 48.4373 85.9375C48.4373 85.0746 49.1369 84.375 49.9998 84.375ZM39.0623 56.25C39.9252 56.25 40.6248 56.9496 40.6248 57.8125C40.6248 58.6754 39.9252 59.375 39.0623 59.375C38.1994 59.375 37.4998 58.6754 37.4998 57.8125C37.4998 56.9496 38.1994 56.25 39.0623 56.25Z" fill="url(#paint3_linear_10112_16)"/>
+									<defs>
+									<linearGradient id="paint0_linear_10112_16" x1="44.0694" y1="6.25" x2="46.779" y2="6.30049" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint1_linear_10112_16" x1="53.4444" y1="6.25" x2="56.154" y2="6.30049" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint2_linear_10112_16" x1="32.5967" y1="-1.0863e-05" x2="70.5032" y2="1.23613" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint3_linear_10112_16" x1="37.5682" y1="31.1279" x2="64.6322" y2="32.1872" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									</defs>
+									</svg>							
+								</div>
+								<div class="columns__body_title">Работа на самом современном оборудовании</div>
+								<div class="columns__body_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</div>
+							</div>
+							<div class="columns__body">
+								<div class="columns__body_icon"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M9.375 9.375H12.5V12.5H9.375V9.375Z" fill="url(#paint0_linear_10112_21)"/>
+									<path d="M9.375 15.625H12.5V18.75H9.375V15.625Z" fill="url(#paint1_linear_10112_21)"/>
+									<path d="M87.5 81.25H90.625V84.375H87.5V81.25Z" fill="url(#paint2_linear_10112_21)"/>
+									<path d="M87.5 87.5H90.625V90.625H87.5V87.5Z" fill="url(#paint3_linear_10112_21)"/>
+									<path d="M84.375 71.875H60.9375C58.3488 71.875 56.25 73.9738 56.25 76.5625V81.25H46.875V84.375H19.5312C10.4706 84.375 3.125 77.0294 3.125 67.9688C3.125 58.9081 10.4706 51.5625 19.5312 51.5625H80.4688C91.2552 51.5625 100 42.8177 100 32.0312C100 21.2448 91.2552 12.5 80.4688 12.5H53.125V9.375H43.75V4.6875C43.75 2.09885 41.6512 0 39.0625 0H15.625V3.125H0V25H15.625V28.125H39.0625C41.6512 28.125 43.75 26.0262 43.75 23.4375V18.75H53.125V15.625H80.4688C89.5294 15.625 96.875 22.9706 96.875 32.0312C96.875 41.0919 89.5294 48.4375 80.4688 48.4375H19.5312C8.74481 48.4375 0 57.1823 0 67.9688C0 78.7552 8.74481 87.5 19.5312 87.5H46.875V90.625H56.25V95.3125C56.25 97.9012 58.3488 100 60.9375 100H84.375V96.875H100V75H84.375V71.875ZM15.625 21.875H3.125V6.25H15.625V21.875ZM40.625 9.375V23.4375C40.625 24.3004 39.9254 25 39.0625 25H18.75V3.125H39.0625C39.9254 3.125 40.625 3.82462 40.625 4.6875V9.375ZM50 15.625H43.75V12.5H50V15.625ZM56.25 87.5H50V84.375H56.25V87.5ZM81.25 96.875H60.9375C60.0746 96.875 59.375 96.1754 59.375 95.3125V76.5625C59.375 75.6996 60.0746 75 60.9375 75H81.25V96.875ZM96.875 78.125V93.75H84.375V78.125H96.875Z" fill="url(#paint4_linear_10112_21)"/>
+									<defs>
+									<linearGradient id="paint0_linear_10112_21" x1="9.69441" y1="9.375" x2="12.3899" y2="9.57592" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint1_linear_10112_21" x1="9.69441" y1="15.625" x2="12.3899" y2="15.8259" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint2_linear_10112_21" x1="87.8194" y1="81.25" x2="90.5149" y2="81.4509" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint3_linear_10112_21" x1="87.8194" y1="87.5" x2="90.5149" y2="87.7009" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									<linearGradient id="paint4_linear_10112_21" x1="10.221" y1="-1.0863e-05" x2="96.4773" y2="6.42932" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#C89AFC"/>
+									<stop offset="1" stop-color="#7C6AFA"/>
+									</linearGradient>
+									</defs>
+									</svg>							
+								</div>
+								<div class="columns__body_title">Сертификация по окончании обучения</div>
+								<div class="columns__body_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partners">
+				<div class="container">
+					<div class="partners__content">
+						<div class="content__body section__title">
+							<div class="partners__content_icon"><svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M23.7854 54.2144C35.8501 66.2791 55.1935 66.4964 66.99 54.6998L77.0724 64.7822C59.8312 82.0233 31.5601 81.7056 13.9271 64.0727C-3.70586 46.4397 -4.02352 18.1686 13.2176 0.92749L23.3 11.0098C11.5034 22.8064 11.7207 42.1497 23.7854 54.2144Z" fill="url(#paint0_linear_10099_15)"/>
+								<defs>
+								<linearGradient id="paint0_linear_10099_15" x1="38.1088" y1="88.2543" x2="-7.8823" y2="23.2849" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#DF5950"/>
+								<stop offset="1" stop-color="#451046"/>
+								</linearGradient>
+								</defs>
+								</svg>
+							</div>
+							<div class="partners__content_title">Партнеры - топовые бренды</div>
+						</div>
+						<div class="partners__content_brands brands">
+							<div class="brands__logos">
+								<a href="#"><img src="img/logo.png" alt=""></a>
+								<a href="#"><img src="img/logo.png" alt=""></a>
+								<a href="#"><img src="img/logo.png" alt=""></a>
+								<a href="#"><img src="img/logo.png" alt=""></a>
+								<a href="#"><img src="img/logo.png" alt=""></a>
+								<a href="#"><img src="img/logo.png" alt=""></a>
+								<a href="#" class="img__1"><img src="img/logo.png" alt=""></a>
+								<a href="#" class="img__2"><img src="img/logo.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="timeline">
+				<div class="container">
+					<div class="timeline__content">
+						<div class="timeline__icon"><svg width="91" height="45" viewBox="0 0 91 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M45.8025 30.7087C62.8645 30.7087 76.696 17.1846 76.696 0.501691L90.9546 0.501685C90.9546 24.8843 70.7393 44.6504 45.8025 44.6504C20.8657 44.6504 0.650424 24.8844 0.65043 0.501723L14.909 0.501717C14.909 17.1846 28.7405 30.7087 45.8025 30.7087Z" fill="url(#paint0_linear_10099_35)"/>
+							<defs>
+							<linearGradient id="paint0_linear_10099_35" x1="80.0005" y1="44.6504" x2="1.53962" y2="31.2307" gradientUnits="userSpaceOnUse">
+							<stop stop-color="#DF5950"/>
+							<stop offset="1" stop-color="#451046"/>
+							</linearGradient>
+							</defs>
+							</svg>
+						</div>
+						<div class="timeline__title">Программа обучения</div>
+						<div class="timeline__text">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</div>
+						<div class="timeline__timeline">
+							<ul class="timeline__list">
+								<li class="timeline__item item">
+									<div class="item__heading">Неделя №1</div>
+									<div class="item__text">Красивая часть курса, которая помогает в успехе</div>
+								</li>
+								<li class="timeline__item item">
+									<div class="item__heading">Неделя №2</div>
+									<div class="item__text">Красивая часть курса, которая помогает в успехе</div>
+								</li>
+								<li class="timeline__item item">
+									<div class="item__heading">Неделя №3</div>
+									<div class="item__text">Красивая часть курса, которая помогает в успехе</div>
+								</li>
+								<li class="timeline__item item">
+									<div class="item__heading">Неделя №4</div>
+									<div class="item__text">Красивая часть курса, которая помогает в успехе</div>
+								</li>
+								<li class="timeline__item item">
+									<div class="item__heading">Неделя №5</div>
+									<div class="item__text">Красивая часть курса, которая помогает в успехе</div>
+								</li>
+								<li class="timeline__item item">
+									<div class="item__heading">Неделя №6</div>
+									<div class="item__text">Красивая часть курса, которая помогает в успехе</div>
+								</li>
+								<li class="timeline__item item">
+									<div class="item__heading">Неделя №7</div>
+									<div class="item__text">Красивая часть курса, которая помогает в успехе</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="teachers">
+				<div class="container">
+					<div class="teachers__content">
+						<div class="teachers__content_head section__title">
+							<div class="teachers__icon"><svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M90.1972 59.3399C73.1211 59.3399 59.2781 72.8752 59.2781 89.5719L45.0077 89.5719C45.0078 65.1691 65.2398 45.3867 90.1972 45.3866C115.155 45.3866 135.387 65.1689 135.387 89.5718L121.116 89.5718C121.116 72.8751 107.273 59.3398 90.1972 59.3399Z" fill="url(#paint0_linear_10099_80)"/>
+								<defs>
+								<linearGradient id="paint0_linear_10099_80" x1="55.9709" y1="45.3867" x2="134.497" y2="58.8176" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#DF5950"/>
+								<stop offset="1" stop-color="#451046"/>
+								</linearGradient>
+								</defs>
+								</svg>
+							</div>
+							<div class="teachers__title">Ваши преподаватели</div>
+						</div>
+						<div class="teachers__content_body visit">
+							<div class="visit__card">
+								<div class="visit__card_photo"><img src="img/AP17006188257723.jpg.webp" alt=""></div>
+								<div class="visit__card_info">
+									<h1>Дмитрий Иванов</h1>
+									<p>Специалист по видеокартам</p>
+								</div>
+								<div class="visit__card_button">
+									<a href="" class="visit__card_link">Биография</a>
+								</div>
+							</div>
+							<div class="visit__card">
+								<div class="visit__card_photo"><img src="img/maguire_2011_a_p.jpg.webp" alt=""></div>
+								<div class="visit__card_info">
+									<h1>Дмитрий Иванов</h1>
+									<p>Специалист по видеокартам</p>
+								</div>
+								<div class="visit__card_button">
+									<a href="" class="visit__card_link">Биография</a>
+								</div>
+							</div>
+							<div class="visit__card">
+								<div class="visit__card_photo"><img src="img/tom-holland-nadia-parkes-dating.jpg.webp" alt=""></div>
+								<div class="visit__card_info">
+									<h1>Дмитрий Иванов</h1>
+									<p>Специалист по видеокартам</p>
+								</div>
+								<div class="visit__card_button">
+									<a href="" class="visit__card_link">Биография</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__content">
+					<div class="footer__content_title">Статьи каждую неделю</div>
+					<div class="footer__content_text">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</div>
+					<div class="footer__content_mail">
+						<form action="#" class="form__box">
+							<input type="text" name="EmailAddress" placeholder="E-mail">
+							<button type="submit">Подписаться</button>
+						</form>
+					</div>
+					<div class="footer__content_media media">
+						<a href="#" class="media__icon"><i class="vk"><svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M21.3625 9.75765C21.3625 9.75765 23.3029 11.6741 23.7829 12.5609C23.7922 12.5736 23.7995 12.5878 23.8045 12.6029C24.0001 12.9305 24.0481 13.1873 23.9521 13.3769C23.7901 13.6901 23.2417 13.8473 23.0557 13.8605H19.6261C19.3873 13.8605 18.8905 13.7981 18.2857 13.3805C17.8237 13.0577 17.3641 12.5261 16.9189 12.0065C16.2541 11.2349 15.6793 10.5653 15.0973 10.5653C15.0238 10.5651 14.9508 10.5773 14.8813 10.6013C14.4409 10.7405 13.8817 11.3681 13.8817 13.0397C13.8817 13.5629 13.4689 13.8605 13.1797 13.8605H11.6089C11.0737 13.8605 8.28731 13.6733 5.81651 11.0681C2.78891 7.87845 0.0697081 1.48005 0.0433081 1.42365C-0.125892 1.00965 0.229308 0.784049 0.613308 0.784049H4.07651C4.54091 0.784049 4.69211 1.06485 4.79771 1.31685C4.92011 1.60605 5.37371 2.76285 6.11771 4.06245C7.32251 6.17685 8.06291 7.03725 8.65451 7.03725C8.76566 7.03758 8.87492 7.0086 8.97131 6.95325C9.74411 6.52845 9.60011 3.76845 9.56411 3.19965C9.56411 3.08925 9.56291 1.96725 9.16691 1.42485C8.88371 1.03605 8.40131 0.884848 8.10971 0.829648C8.18771 0.716848 8.35331 0.544048 8.56571 0.442048C9.09491 0.178048 10.0513 0.139648 11.0005 0.139648H11.5273C12.5569 0.154048 12.8233 0.220048 13.1977 0.314848C13.9513 0.494848 13.9657 0.983249 13.8997 2.64645C13.8805 3.12165 13.8601 3.65685 13.8601 4.28685C13.8601 4.42125 13.8541 4.57125 13.8541 4.72365C13.8313 5.57685 13.8013 6.53805 14.4037 6.93285C14.4818 6.98152 14.5721 7.0073 14.6641 7.00725C14.8729 7.00725 15.4981 7.00725 17.1937 4.09725C17.9377 2.81205 18.5137 1.29645 18.5533 1.18245C18.5869 1.11885 18.6877 0.940048 18.8101 0.868048C18.8972 0.821723 18.9947 0.798581 19.0933 0.800849H23.1673C23.6113 0.800849 23.9125 0.868049 23.9713 1.03605C24.0697 1.30845 23.9521 2.14005 22.0921 4.65525C21.7789 5.07405 21.5041 5.43645 21.2629 5.75325C19.5769 7.96605 19.5769 8.07765 21.3625 9.75765V9.75765Z" fill="white"/>
+							</svg>
+							</i>
+						</a>
+						<a href="#" class="media__icon"><i class="you_tube">
+							<svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M21.0576 2.94539C20.9381 2.50142 20.7041 2.09662 20.3789 1.77152C20.0538 1.44641 19.649 1.21239 19.2051 1.09289C17.5701 0.650391 11.0001 0.650391 11.0001 0.650391C11.0001 0.650391 4.43008 0.650391 2.79508 1.09289C2.35111 1.21239 1.94631 1.44641 1.6212 1.77152C1.29609 2.09662 1.06208 2.50142 0.942576 2.94539C0.637285 4.61284 0.489136 6.30526 0.500076 8.00039C0.489136 9.69552 0.637285 11.3879 0.942576 13.0554C1.06208 13.4994 1.29609 13.9042 1.6212 14.2293C1.94631 14.5544 2.35111 14.7884 2.79508 14.9079C4.43008 15.3504 11.0001 15.3504 11.0001 15.3504C11.0001 15.3504 17.5701 15.3504 19.2051 14.9079C19.649 14.7884 20.0538 14.5544 20.3789 14.2293C20.7041 13.9042 20.9381 13.4994 21.0576 13.0554C21.3629 11.3879 21.511 9.69552 21.5001 8.00039C21.511 6.30526 21.3629 4.61284 21.0576 2.94539V2.94539ZM8.90008 11.1504V4.85039L14.3526 8.00039L8.90008 11.1504Z" fill="white"/>
+								</svg>
+								</i>
+						</a>
+						<a href="#" class="media__icon"><i class="facebook"><svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.39703 17.9972V9.80117H9.16203L9.57303 6.59217H6.39703V4.54817C6.39703 3.62217 6.65503 2.98817 7.98403 2.98817H9.66803V0.127169C8.84867 0.0393602 8.02508 -0.00303802 7.20103 0.000169166C4.75703 0.000169166 3.07903 1.49217 3.07903 4.23117V6.58617H0.332031V9.79517H3.08503V17.9972H6.39703Z" fill="white"/>
+							</svg>
+							</i>
+						</a>
+						<a href="#" class="media__icon"><i class="instagram">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.5 0H7.5C3.3585 0 0 3.3585 0 7.5V16.5C0 20.6415 3.3585 24 7.5 24H16.5C20.6415 24 24 20.6415 24 16.5V7.5C24 3.3585 20.6415 0 16.5 0ZM21.75 16.5C21.75 19.395 19.395 21.75 16.5 21.75H7.5C4.605 21.75 2.25 19.395 2.25 16.5V7.5C2.25 4.605 4.605 2.25 7.5 2.25H16.5C19.395 2.25 21.75 4.605 21.75 7.5V16.5Z" fill="white"/>
+								<path d="M12 6C8.6865 6 6 8.6865 6 12C6 15.3135 8.6865 18 12 18C15.3135 18 18 15.3135 18 12C18 8.6865 15.3135 6 12 6ZM12 15.75C9.933 15.75 8.25 14.067 8.25 12C8.25 9.9315 9.933 8.25 12 8.25C14.067 8.25 15.75 9.9315 15.75 12C15.75 14.067 14.067 15.75 12 15.75Z" fill="white"/>
+								<path d="M18.4479 6.34997C18.8895 6.34997 19.2474 5.99203 19.2474 5.55048C19.2474 5.10892 18.8895 4.75098 18.4479 4.75098C18.0064 4.75098 17.6484 5.10892 17.6484 5.55048C17.6484 5.99203 18.0064 6.34997 18.4479 6.34997Z" fill="white"/>
+								</svg></i>
+						</a>
+					</div>
+					<div class="footer__content_rights">3.03.2022 by KK@.front_end</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="main__overlay">
+
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
